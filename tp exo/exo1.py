@@ -9,7 +9,6 @@ choix = int(input("choix: "))
 if choix == 1 :
     print(add)
 else:
-                  
     if choix == 2 :
         print(sous)
     else:
