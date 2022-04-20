@@ -16,7 +16,7 @@ else:
             print(multi)
         else:
             if choix == 4 and choix != 0 :
-                print(div)
+                print(f"{div:.2f}")
             else:
                 print("error")
             

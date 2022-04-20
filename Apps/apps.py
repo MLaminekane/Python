@@ -1,18 +1,12 @@
-# # for i in range(10):
-# #     print(i * '*')
+# try:
+#     x = int(input("la valeur de x: "))
+# except ValueError:
+#     print("vous avez entre autre qu'un nombre")
+# print(f"x est {x}")
 
-# # a = input("entrer a: ")
-# # b = input("entrer b: ")
-# # print(f"résultat: {int(a)+int(b)} ")
+def bonjour():
+    print("bonjour")
 
-# age = input('votre age: ')
-# age = int(age)
-# if age >= 18:
-#     print("vous etes majeur")
-# else:
-#     print("vous etes mineur")    
-
-# import os
-# chemin = "/Users/laminekane/Documents"
-# dossier = os.path.join(chemin, "dossier", "test") 
-# os.makedirs(dossier)
+name = input("votre nom: ")
+bonjour()
+print(name)
