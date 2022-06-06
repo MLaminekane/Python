@@ -13,9 +13,10 @@
 
 
 
-nombre = int(input("entrer un nombre: "))
-try:
-    nombre = int(input("entrer un nombre: "))
-except ValueError:
-    print("entrer un bon nombre")
+# nombre = int(input("entrer un nombre: "))
+# try:
+#     nombre = int(input("entrer un nombre: "))
+# except ValueError:
+#     print("entrer un bon nombre")
     
+
