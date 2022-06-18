@@ -52,19 +52,24 @@
 #         else:
 #             print("ce n'est pas divisible")
             
-n = int(input("entrer une valeur: "))
-while(n<=0):
-    print("invalide")
+# n = int(input("entrer une valeur: "))
+# while(n<=0):
+#     print("invalide")
 
-different = [5, 10, 15, 20]
-nbre_divisible = []
-som = 0
-nbr_divises = 0
-for i in range (1, n):
-    if i not in different:
-        if i%5==0 or i%5==5:
-            nbre_divisible.append(i)
-            som += i
-            nbr_divises += 1
-moyenne = som / nbr_divises
-print(moyenne)
+# different = [5, 10, 15, 20]
+# nbre_divisible = []
+# som = 0
+# nbr_divises = 0
+# for i in range (1, n):
+#     if i not in different:
+#         if i%5==0 or i%5==5:
+#             nbre_divisible.append(i)
+#             som += i
+#             nbr_divises += 1
+# moyenne = som / nbr_divises
+# print(moyenne)
+
+i = 1
+while i < 6:
+    print(i)
+    i += 1
